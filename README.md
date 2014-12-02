@@ -1,4 +1,4 @@
-Sports-Buddy-Finder-Application
+Sports Buddy Finder Application
 ===============================
 
 ISTM 6201 Project
