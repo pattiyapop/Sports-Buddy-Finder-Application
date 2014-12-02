@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="cc7cbd88-d300-46ba-ab2e-91b1631ebcbe" name="UMLComponentDiagram" linkedPackageId="cb3847bc-5f77-4c7a-b56a-276f9063bb23" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="ee093566-fc1d-454e-8f07-c7daae063799" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="ada02bf0-c298-4114-b56c-fc63c7c7cf9f" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="f4afa057-3abe-4040-9963-8302b2cfe0bf">
+          <propertyInstance Id="e6e5217e-54a0-4e22-a00c-599b12433d15" name="BaseName">
+            <elementDefinition Id="edc82d49-9be3-4862-a166-0d51dba737ac" />
+          </propertyInstance>
+          <elementDefinition Id="26f7c0e9-3277-4372-8f13-7a4abc057e63" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="0d8cb4de-d011-4f8b-a7b9-283ef3c9f54e">
+          <propertyInstance Id="9c19b590-5774-4b7e-80d5-527ac7606786" name="ClrAttributes">
+            <elementDefinition Id="29f4b787-6a23-4e94-b91e-8b5aadcc2a15" />
+          </propertyInstance>
+          <elementDefinition Id="dedc0d96-053e-405c-8895-62f29f774aca" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="06ea2920-f3ec-4b49-b1ec-277d559afafa">
+          <propertyInstance Id="cb62be58-19b7-4688-885d-cc9d4ce72b47" name="Usings">
+            <elementDefinition Id="03fdf8d0-dad9-48f4-bdba-f25712a0ddd7" />
+          </propertyInstance>
+          <elementDefinition Id="cdde7b95-42ed-418a-9431-0a8c19b19467" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="6393ae22-e17e-4362-a8ca-ab789119f03d" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="ee3688a0-414f-4cd2-a283-41dd21df55d2" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1e7d9976-0ce3-40e5-9a2c-c3e8d6f4253c">
+          <propertyInstance Id="30c724b4-eee5-41ac-9300-b786ac60d851" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="14a35a88-579b-4bca-b254-d8fb2785b9cf" />
+          </propertyInstance>
+          <elementDefinition Id="a1a684d8-fede-448e-bc13-f9d00d3b3e4f" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="24418b84-cd1b-4e47-9d4d-7d272f18677b">
+          <propertyInstance Id="7470c993-9a23-42b4-9897-e4bae7dd4ab3" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="6b8260d2-fe76-43ee-8e6d-df1263576aca" />
+          </propertyInstance>
+          <elementDefinition Id="a3c435c9-b60e-478a-8724-964192a11fe5" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="bec85ca0-2c47-4b05-a90b-0e5f324ad201">
+          <propertyInstance Id="64fb0cb8-0a5c-49ca-b4d2-d0a002b659ba" name="ProjectPath" value="ClassTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|EnumTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|InterfaceTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|StructTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj">
+            <elementDefinition Id="b75736b4-04e8-43bd-8c2f-9cdf0b42516f" />
+          </propertyInstance>
+          <elementDefinition Id="96790796-e15c-4467-b8f3-91b3b1fd80b5" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="59d2049e-412a-48c8-b3c7-a746bd87158c">
+          <propertyInstance Id="23cc3cad-14b5-43ce-a6d4-94ac6a5a9cd2" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="410e5b48-214c-4f7a-8824-06a0281876a9" />
+          </propertyInstance>
+          <elementDefinition Id="98edaf88-3421-420f-bce1-63e3a5e75db0" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="54ba9d79-4c27-46cc-a921-b3ebfde0380e">
+          <propertyInstance Id="68b9bf48-20d5-4c1a-bdf8-830fbc1fa4ee" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="d99f10dc-c72e-406e-8ec0-6ce1950b03b2" />
+          </propertyInstance>
+          <elementDefinition Id="ecd82765-ea7c-4d73-96bd-cd6cfeb077d5" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="f770e0c6-2211-4eb6-84dc-3abc8951e33a">
+          <propertyInstance Id="ea9a0e0a-812f-429c-a7af-2a384719ab16" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="ad94a3ea-711f-417b-ba1f-557d5d2f39d4" />
+          </propertyInstance>
+          <elementDefinition Id="e0823c4b-c1ef-4a53-9a18-a672fc99ce08" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="b74b3b2b-aec3-4dda-9662-078d4e9bb42a">
+          <propertyInstance Id="1af42c69-ef66-43b1-b81a-09e1df61255b" name="Parameters">
+            <elementDefinition Id="1b73cd42-bc18-49ce-a7c7-d8d28c491c35" />
+          </propertyInstance>
+          <elementDefinition Id="70c3aa27-90bc-483b-ab7c-f9c77b6e4944" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="ba74a823-2017-4953-8a82-180b7aa5363a">
+      <profileInstance Id="21ddf6ad-84a4-4e41-a426-d5e662c6ae75" name="CSharpProfile">
+        <elementDefinition Id="f5712e2e-3d51-44a4-8a89-5c3233c035b3" />
+      </profileInstance>
+      <elementDefinition Id="94b380b3-3567-4914-97ce-853942ba92e3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="42460bfd-c8f5-4374-bdb9-8dc83ff27cbd">
+      <profileInstance Id="0d624780-dd7a-46af-b6b4-e8d15914b1a7" name="TextTemplateBindings">
+        <elementDefinition Id="49338f7b-d6a1-4123-b895-9a8229379611" />
+      </profileInstance>
+      <elementDefinition Id="037b93cc-d4bc-462d-a475-83c4ed7b1f86" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="988f1043-e3ba-4610-9dec-97c520627c95" name="Sports Buddy Windows Form Application" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="afdae46c-0dfb-4f1e-8505-dfb5d7313dd3" />
+        <suppliersInternal>
+          <dependency Id="1f2a2a41-0c8a-41e1-885c-1b94be89cf78">
+            <componentMoniker Id="ad78fec2-f92f-46f7-be89-aabe3439a77c" LastKnownName="Sports Buddy Application MySQL Database" />
+            <elementDefinition Id="2cbc0cb3-27ea-41c6-99c5-82b77faaf6b8" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <providedInterface Id="128907c3-1669-4730-b861-7bfb6bf59d32" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="f77b354b-9e7a-4581-92d4-88d719d273ea" />
+            <type_NamedElement>
+              <interfaceMoniker Id="579291e6-6875-4451-aa6f-6007b0c65128" LastKnownName="Sports Buddy Windows Form" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface Id="9a1df7e6-fc45-4781-bac6-b3014b3a3898" name="Port2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="01dff46f-9116-49a3-a095-95d8e5091e6b" />
+            <type_NamedElement>
+              <interfaceMoniker Id="534dd68b-cc5c-44b5-a4ba-705af62727a0" LastKnownName="IEvent" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface Id="7b0b891c-7268-4261-a68d-65fefac3887a" name="Port3" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="9ba7eed4-17e8-4d6e-ad0e-b2ece47deef8" />
+            <type_NamedElement>
+              <interfaceMoniker Id="4c099313-aaf4-4eec-8d65-1344bb8f83d8" LastKnownName="IUser" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface Id="7d9cc321-f8cd-4703-833f-b67b10a944b9" name="Port4" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="7f7ca328-1a7e-405b-b578-359ea5354e35" />
+            <type_NamedElement>
+              <interfaceMoniker Id="0c2b4fc6-8600-4045-b58f-1abea0db87b1" LastKnownName="ISports" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface Id="7bdef61d-6b45-4674-beb4-32d2c629426e" name="Port5" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="82e86c42-8876-43c4-8238-e2c9cc8f0db7" />
+            <type_NamedElement>
+              <interfaceMoniker Id="d23e98a5-a6e2-4fda-98b3-574c1a47db0a" LastKnownName="IRegistration" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="ad78fec2-f92f-46f7-be89-aabe3439a77c" name="Sports Buddy Application MySQL Database" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1a2ae820-3c29-4f53-8e8f-05b9f2d114b5" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="16abe5e6-a11b-435f-94df-fe3ee250de54" name="Computer Desktop" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="96ae6076-80e1-4d12-81e0-183e6b15c230" />
+        <ownedAttributesInternal>
+          <requiredInterface Id="47e91425-9d58-489b-80eb-0fa3fdccba85" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="ee82977a-10c9-4051-a374-5c4410406678" />
+            <suppliersInternal>
+              <dependency Id="e371fb2c-5c9a-4ea1-addf-5b44100c0b08">
+                <providedInterfaceMoniker Id="128907c3-1669-4730-b861-7bfb6bf59d32" LastKnownName="Port1" />
+                <elementDefinition Id="3dd9d48b-8e2e-4d11-bbe4-e3820c19fc30" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker Id="a2661eea-3a94-4ae0-9c64-9edc888fd66b" LastKnownName="Sports Buddy Windows Form" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="579291e6-6875-4451-aa6f-6007b0c65128" name="Sports Buddy Windows Form" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e904133c-0a85-4438-9789-74e6bfed18aa" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="a2661eea-3a94-4ae0-9c64-9edc888fd66b" name="Sports Buddy Windows Form" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1f3826ac-0d97-4dba-b3fe-8e362a746b6f" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="534dd68b-cc5c-44b5-a4ba-705af62727a0" name="IEvent" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3f041301-abc9-4635-8e5f-69b939b6974a" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="4c099313-aaf4-4eec-8d65-1344bb8f83d8" name="IUser" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="09f6f656-421f-4020-a473-cf901f034b37" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="0c2b4fc6-8600-4045-b58f-1abea0db87b1" name="ISports" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f5941383-0f32-4183-bd47-b89df9b78eec" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="d23e98a5-a6e2-4fda-98b3-574c1a47db0a" name="IRegistration" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7b0e601f-5931-43a7-ac0d-6d8777f71998" />
+      </Interface>
+    </modelContainsNamedElements>
+  </packagedElements>
+  <package Id="cb3847bc-5f77-4c7a-b56a-276f9063bb23" name="ModelingProject1">
+    <elementDefinition Id="260d40ff-447a-48b5-9fe3-af72da734487" />
+    <profileInstances>
+      <packageHasProfileInstances Id="d65cb712-7a7c-4c09-833f-ed5ea9574fb9">
+        <profileInstance Id="63f3238e-ee1d-4891-9f3d-f95a5ad9bd0c" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="538b8567-9ff3-46ca-a441-6d7c9ef693c5">
+        <profileInstance Id="bbb645db-284d-4a56-90b2-22859f1a0a63" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</componentModel>

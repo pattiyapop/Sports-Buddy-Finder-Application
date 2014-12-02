@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLComponentDiagram">
+  <componentModelMoniker Id="cc7cbd88-d300-46ba-ab2e-91b1631ebcbe" />
+  <nestedChildShapes>
+    <componentShape Id="c5b46f6f-8528-4ae8-adbd-cc1a543768ff" absoluteBounds="2.0625, 2, 2.96875, 1.8354166666666663" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="988f1043-e3ba-4610-9dec-97c520627c95" LastKnownName="Sports Buddy Windows Form Application" />
+      <relativeChildShapes>
+        <providedInterfaceShape Id="4858fcec-fd83-46b1-982c-04760f85a1d5" absoluteBounds="1.65625, 3.21875, 0.40625, 0.15625" blackBoxLocation="0" whiteBoxLocation="0" whiteBoxEdge="" blackBoxEdge="" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+          <providedInterfaceMoniker Id="128907c3-1669-4730-b861-7bfb6bf59d32" LastKnownName="Port1" />
+          <relativeChildShapes />
+          <moveableDecoratorHostShapes>
+            <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="0.5, 3.53125, 1.4924948215484619, 0.14800345897674561" shapeFieldName="Label" />
+          </moveableDecoratorHostShapes>
+        </providedInterfaceShape>
+        <requiredInterfaceShape Id="21d36550-b55c-4cf2-afbd-8ad4f4a07dc5" absoluteBounds="5.03125, 2.53125, 0.40625, 0.15625" blackBoxLocation="0" whiteBoxLocation="0" whiteBoxEdge="" blackBoxEdge="" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+          <requiredInterfaceMoniker Id="9a1df7e6-fc45-4781-bac6-b3014b3a3898" LastKnownName="Port2" />
+          <relativeChildShapes />
+          <moveableDecoratorHostShapes>
+            <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="5.5, 2.5625, 0.36326313018798828, 0.14800345897674561" shapeFieldName="Label" />
+          </moveableDecoratorHostShapes>
+        </requiredInterfaceShape>
+        <requiredInterfaceShape Id="6caae88b-c05b-48ac-ae32-d5479f6779fd" absoluteBounds="5.03125, 3, 0.40625, 0.15625" blackBoxLocation="0" whiteBoxLocation="0" whiteBoxEdge="" blackBoxEdge="" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+          <requiredInterfaceMoniker Id="7b0b891c-7268-4261-a68d-65fefac3887a" LastKnownName="Port3" />
+          <relativeChildShapes />
+        </requiredInterfaceShape>
+        <requiredInterfaceShape Id="23585eca-fc01-4b92-b49c-567cac429417" absoluteBounds="5.03125, 3.53125, 0.40625, 0.15625" blackBoxLocation="0" whiteBoxLocation="0" whiteBoxEdge="" blackBoxEdge="" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+          <requiredInterfaceMoniker Id="7d9cc321-f8cd-4703-833f-b67b10a944b9" LastKnownName="Port4" />
+          <relativeChildShapes />
+        </requiredInterfaceShape>
+        <requiredInterfaceShape Id="71502031-f4e9-4773-bdd3-76f067459188" absoluteBounds="4.34375, 3.8354166666666663, 0.15625, 0.40625" blackBoxLocation="0" whiteBoxLocation="0" whiteBoxEdge="" blackBoxEdge="" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+          <requiredInterfaceMoniker Id="7bdef61d-6b45-4674-beb4-32d2c629426e" LastKnownName="Port5" />
+          <relativeChildShapes />
+        </requiredInterfaceShape>
+      </relativeChildShapes>
+    </componentShape>
+    <componentShape Id="7820e8d9-e892-41e2-875a-b0195a06e7ae" absoluteBounds="2, 4.625, 3.2187500000000004, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="ad78fec2-f92f-46f7-be89-aabe3439a77c" LastKnownName="Sports Buddy Application MySQL Database" />
+    </componentShape>
+    <componentShape Id="c6e59d6c-b114-4b15-9b21-ac92b25bcc7a" absoluteBounds="2.9066614882151285, 0.5, 1.8958333333333339, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="16abe5e6-a11b-435f-94df-fe3ee250de54" LastKnownName="Computer Desktop" />
+      <relativeChildShapes>
+        <requiredInterfaceShape Id="43557669-93fa-4f42-bdb1-641872b19205" absoluteBounds="2.052494821548462, 1.09375, 0.85416666666666652, 0.15625" blackBoxLocation="0" whiteBoxLocation="0" whiteBoxEdge="" blackBoxEdge="" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+          <requiredInterfaceMoniker Id="47e91425-9d58-489b-80eb-0fa3fdccba85" LastKnownName="Port1" />
+          <relativeChildShapes />
+        </requiredInterfaceShape>
+      </relativeChildShapes>
+    </componentShape>
+    <dependencyConnector edgePoints="[(2.05249482154846 : 1.171875); (1.28125 : 1.171875); (1.28125 : 3.296875); (1.65625 : 3.296875)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+      <dependencyMoniker Id="e371fb2c-5c9a-4ea1-addf-5b44100c0b08" />
+      <relativeChildShapes />
+      <nodes>
+        <requiredInterfaceShapeMoniker Id="43557669-93fa-4f42-bdb1-641872b19205" />
+        <providedInterfaceShapeMoniker Id="4858fcec-fd83-46b1-982c-04760f85a1d5" />
+      </nodes>
+    </dependencyConnector>
+    <dependencyConnector edgePoints="[(3.546875 : 3.83541666666667); (3.546875 : 4.625)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+      <dependencyMoniker Id="1f2a2a41-0c8a-41e1-885c-1b94be89cf78" />
+      <relativeChildShapes />
+      <nodes>
+        <componentShapeMoniker Id="c5b46f6f-8528-4ae8-adbd-cc1a543768ff" />
+        <componentShapeMoniker Id="7820e8d9-e892-41e2-875a-b0195a06e7ae" />
+      </nodes>
+    </dependencyConnector>
+  </nestedChildShapes>
+</componentDiagram>

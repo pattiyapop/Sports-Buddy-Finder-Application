@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="f807bd79-ba28-4699-acbd-b0a124da3769" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="c41da755-8991-4655-8fe4-615bf1c9c4eb" name=".NET FRAMEWORK CLIENT">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="34330f45-09df-441a-95ae-7794962423e3" direction="Bidirectional">
+          <layerMoniker Id="d4ca6174-f731-4354-92e0-a9adcded2809" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="984f888d-2f65-48bf-a8d7-5bdad279a290" name=" Desktop User Interface">
+          <childLayers>
+            <layer Id="c4de48f7-d75f-4842-8e6c-409c311f94a3" name="Windows Forms">
+              <childLayers>
+                <layer Id="fb714efd-11f7-4336-ade4-897067c8c143" name="IEvent" />
+                <layer Id="8ffc0d92-8b28-4f88-b223-88f5d92c0ad3" name="IUser" />
+                <layer Id="d4020665-21fb-4351-9683-f91cf9d3e661" name="ISports" />
+              </childLayers>
+            </layer>
+            <layer Id="f84eaae3-aad3-438a-ac36-2d2c36a2675d" name="Windows Presentation Foundation" />
+          </childLayers>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="d4ca6174-f731-4354-92e0-a9adcded2809" name="Windows Application Server (IIS)">
+      <childLayers>
+        <layer Id="56d25c9a-a439-48c7-a50d-ac0baa8b3ba3" name="Data Access">
+          <childLayers>
+            <layer Id="6f3868ec-c099-4692-b64f-c22d7e5889ee" name="MySQL database (localhost)" />
+          </childLayers>
+        </layer>
+        <layer Id="02f61f58-da4c-48ec-b9e5-b470b162dc3d" name="Enterprise Components">
+          <childLayers>
+            <layer Id="b38034e1-de72-4f03-bb89-f4203382875b" name="Windows Communication Foundation" />
+          </childLayers>
+        </layer>
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>
