@@ -44,6 +44,9 @@ namespace SportsWindowsFormsApplication
             {
                 MessageBox.Show(ex.Message);
             }
+            this.Hide();
+            Home home = new Home();
+            home.ShowDialog();
         }
 
         private void name_TextChanged(object sender, EventArgs e)

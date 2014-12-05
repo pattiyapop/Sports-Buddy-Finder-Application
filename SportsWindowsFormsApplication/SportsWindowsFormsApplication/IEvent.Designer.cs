@@ -51,6 +51,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.description = new System.Windows.Forms.RichTextBox();
             this.SubmitEvent = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -256,13 +257,23 @@
             // 
             // SubmitEvent
             // 
-            this.SubmitEvent.Location = new System.Drawing.Point(138, 487);
+            this.SubmitEvent.Location = new System.Drawing.Point(60, 490);
             this.SubmitEvent.Name = "SubmitEvent";
-            this.SubmitEvent.Size = new System.Drawing.Size(93, 26);
+            this.SubmitEvent.Size = new System.Drawing.Size(95, 32);
             this.SubmitEvent.TabIndex = 21;
             this.SubmitEvent.Text = "Submit";
             this.SubmitEvent.UseVisualStyleBackColor = true;
             this.SubmitEvent.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(225, 490);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(95, 32);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "Back";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // IEvent
             // 
@@ -270,6 +281,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(377, 551);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.SubmitEvent);
             this.Controls.Add(this.description);
             this.Controls.Add(this.label10);
@@ -323,5 +335,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.RichTextBox description;
         private System.Windows.Forms.Button SubmitEvent;
+        private System.Windows.Forms.Button button1;
     }
 }

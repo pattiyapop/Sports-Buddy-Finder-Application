@@ -52,13 +52,13 @@ namespace SportsWindowsFormsApplication
                 description.Text = dt.Rows[0][11] + "";
                 Console.WriteLine(dt.Rows.Count);  
                 // This part is for debugging only.
-           foreach (DataRow dataRow in dt.Rows)
-            {
-            foreach (var item in dataRow.ItemArray)
-            {
-                Console.WriteLine(item);
-            }
-           }
+                foreach (DataRow dataRow in dt.Rows)
+                {
+                    foreach (var item in dataRow.ItemArray)
+                    {
+                    Console.WriteLine(item);
+                    }
+                }
            }
 
             catch (Exception ex)

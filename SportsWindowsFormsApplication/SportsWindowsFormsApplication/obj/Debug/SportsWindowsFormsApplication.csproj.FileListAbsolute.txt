@@ -17,3 +17,4 @@ C:\Users\lenovo\Documents\VSProjects\SportsWindowsFormsApplication\SportsWindows
 C:\Users\lenovo\Documents\VSProjects\SportsWindowsFormsApplication\SportsWindowsFormsApplication\obj\Debug\SportsWindowsFormsApplication.StaticProfilePage.resources
 C:\Users\lenovo\Documents\VSProjects\SportsWindowsFormsApplication\SportsWindowsFormsApplication\obj\Debug\SportsWindowsFormsApplication.SportsCreated.resources
 C:\Users\lenovo\Documents\VSProjects\SportsWindowsFormsApplication\SportsWindowsFormsApplication\obj\Debug\SportsWindowsFormsApplication.EditProfile.resources
+C:\Users\lenovo\Documents\VSProjects\SportsWindowsFormsApplication\SportsWindowsFormsApplication\obj\Debug\SportsWindowsFormsApplication.ViewByCalendar.resources

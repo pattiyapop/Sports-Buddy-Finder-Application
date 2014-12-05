@@ -110,5 +110,12 @@ namespace SportsWindowsFormsApplication
             EventSecond eventsecond = new EventSecond();
             eventsecond.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ViewByCalendar calendar = new ViewByCalendar();
+            calendar.ShowDialog();
+        }
     }
 }

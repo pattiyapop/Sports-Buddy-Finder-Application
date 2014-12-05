@@ -65,7 +65,7 @@
             // sport2
             // 
             this.sport2.AutoSize = true;
-            this.sport2.Location = new System.Drawing.Point(49, 185);
+            this.sport2.Location = new System.Drawing.Point(53, 185);
             this.sport2.Name = "sport2";
             this.sport2.Size = new System.Drawing.Size(41, 13);
             this.sport2.TabIndex = 4;
@@ -76,7 +76,7 @@
             // sport3
             // 
             this.sport3.AutoSize = true;
-            this.sport3.Location = new System.Drawing.Point(49, 238);
+            this.sport3.Location = new System.Drawing.Point(53, 238);
             this.sport3.Name = "sport3";
             this.sport3.Size = new System.Drawing.Size(41, 13);
             this.sport3.TabIndex = 5;
@@ -87,7 +87,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(49, 127);
+            this.linkLabel1.Location = new System.Drawing.Point(53, 127);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(41, 13);
             this.linkLabel1.TabIndex = 9;
@@ -113,6 +113,7 @@
             this.button1.TabIndex = 12;
             this.button1.Text = "View On Calendar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
