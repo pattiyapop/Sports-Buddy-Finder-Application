@@ -26,7 +26,7 @@ namespace SportsWindowsFormsApplication
         private void button1_Click(object sender, EventArgs e)
         { 
             string constring = "datasource=localhost;port=3306;username=root;password=4010;";
-            string Query = "insert into sportsbuddydb.sportsbuddyeventsv4 (eventname,eventstartdatetime,eventenddatetime,buddiesneeded,locationnear,location,sport,sportslevel,needequipment,genderneeded,description) values( '" + this.eventname.Text + "','" + this.eventstartdatetime.Value.Date.ToString("yyyy-MM-dd HH:mm:ss") + "','" + this.eventenddatetime.Value.Date.ToString("yyyy-MM-dd HH:mm:ss") + "','" + this.buddiesneeded.Text + "','" + this.locationnear.Text + "','" + this.location.Text + "','" + this.sport.Text + "','" + this.sportslevel.Text + "','" + this.needequipment.Text + "','" + this.genderneeded.Text + "','" + this.description.Text + "') ; ";
+            string Query = "insert into sportsbuddydb.sportsbuddyevents (eventname,eventstartdatetime,eventenddatetime,buddiesneeded,locationnear,location,sport,sportslevel,needequipment,genderneeded,description) values( '" + this.eventname.Text + "','" + this.eventstartdatetime.Value.Date.ToString("yyyy-MM-dd HH:mm:ss") + "','" + this.eventenddatetime.Value.Date.ToString("yyyy-MM-dd HH:mm:ss") + "','" + this.buddiesneeded.Text + "','" + this.locationnear.Text + "','" + this.location.Text + "','" + this.sport.Text + "','" + this.sportslevel.Text + "','" + this.needequipment.Text + "','" + this.genderneeded.Text + "','" + this.description.Text + "') ; ";
             MySqlConnection conDataBase = new MySqlConnection(constring);
             MySqlCommand cmdDataBase = new MySqlCommand(Query, conDataBase);
             MySqlDataReader myReader;
@@ -38,7 +38,7 @@ namespace SportsWindowsFormsApplication
 
                 }
                 this.Hide();
-                SportsBuddyEvent home = new SportsBuddyEvent();
+                SportsCreated home = new SportsCreated();
                 home.ShowDialog();
             }
             catch (Exception ex)

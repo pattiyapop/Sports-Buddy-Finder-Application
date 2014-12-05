@@ -293,7 +293,7 @@
             this.Controls.Add(this.eventname);
             this.Controls.Add(this.label1);
             this.Name = "IEvent";
-            this.Text = "Create Sport Event";
+            this.Text = "Sports Buddy Finder";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -50,17 +50,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SportsBuddyEvent.cs">
+    <Compile Include="EditProfile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SportsBuddyEvent.Designer.cs">
-      <DependentUpon>SportsBuddyEvent.cs</DependentUpon>
+    <Compile Include="EditProfile.Designer.cs">
+      <DependentUpon>EditProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventFirst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventFirst.Designer.cs">
+      <DependentUpon>EventFirst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventSecond.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventSecond.Designer.cs">
+      <DependentUpon>EventSecond.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventConfirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventConfirmation.Designer.cs">
+      <DependentUpon>EventConfirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SportsCreated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SportsCreated.Designer.cs">
+      <DependentUpon>SportsCreated.cs</DependentUpon>
     </Compile>
     <Compile Include="Sports.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Sports.Designer.cs">
       <DependentUpon>Sports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaticProfilePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaticProfilePage.Designer.cs">
+      <DependentUpon>StaticProfilePage.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs">
       <SubType>Form</SubType>
@@ -88,11 +118,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="SportsBuddyEvent.resx">
-      <DependentUpon>SportsBuddyEvent.cs</DependentUpon>
+    <EmbeddedResource Include="EditProfile.resx">
+      <DependentUpon>EditProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventFirst.resx">
+      <DependentUpon>EventFirst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventSecond.resx">
+      <DependentUpon>EventSecond.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventConfirmation.resx">
+      <DependentUpon>EventConfirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SportsCreated.resx">
+      <DependentUpon>SportsCreated.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sports.resx">
       <DependentUpon>Sports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaticProfilePage.resx">
+      <DependentUpon>StaticProfilePage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User.resx">
       <DependentUpon>User.cs</DependentUpon>

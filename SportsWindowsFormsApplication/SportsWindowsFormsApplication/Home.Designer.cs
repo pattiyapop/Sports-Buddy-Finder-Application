@@ -62,7 +62,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Home";
-            this.Text = "Sports Buddy Home";
+            this.Text = "Sports Buddy Finder";
             this.ResumeLayout(false);
 
         }
