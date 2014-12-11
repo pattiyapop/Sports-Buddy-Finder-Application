@@ -68,17 +68,17 @@
     <Compile Include="EventSecond.Designer.cs">
       <DependentUpon>EventSecond.cs</DependentUpon>
     </Compile>
-    <Compile Include="EventConfirmation.cs">
+    <Compile Include="SportsBuddyEvents.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EventConfirmation.Designer.cs">
-      <DependentUpon>EventConfirmation.cs</DependentUpon>
+    <Compile Include="SportsBuddyEvents.Designer.cs">
+      <DependentUpon>SportsBuddyEvents.cs</DependentUpon>
     </Compile>
-    <Compile Include="SportsCreated.cs">
+    <Compile Include="ISports.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SportsCreated.Designer.cs">
-      <DependentUpon>SportsCreated.cs</DependentUpon>
+    <Compile Include="ISports.Designer.cs">
+      <DependentUpon>ISports.cs</DependentUpon>
     </Compile>
     <Compile Include="Sports.cs">
       <SubType>Form</SubType>
@@ -133,11 +133,11 @@
     <EmbeddedResource Include="EventSecond.resx">
       <DependentUpon>EventSecond.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EventConfirmation.resx">
-      <DependentUpon>EventConfirmation.cs</DependentUpon>
+    <EmbeddedResource Include="SportsBuddyEvents.resx">
+      <DependentUpon>SportsBuddyEvents.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SportsCreated.resx">
-      <DependentUpon>SportsCreated.cs</DependentUpon>
+    <EmbeddedResource Include="ISports.resx">
+      <DependentUpon>ISports.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sports.resx">
       <DependentUpon>Sports.cs</DependentUpon>

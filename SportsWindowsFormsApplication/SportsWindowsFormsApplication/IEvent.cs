@@ -38,7 +38,8 @@ namespace SportsWindowsFormsApplication
 
                 }
                 this.Hide();
-                SportsCreated home = new SportsCreated();
+                ISports home = new ISports();
+                // try showing the data
                 home.ShowDialog();
             }
             catch (Exception ex)

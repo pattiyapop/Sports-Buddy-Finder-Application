@@ -97,7 +97,7 @@ namespace SportsWindowsFormsApplication
         private void join_Click(object sender, EventArgs e)
         {
             this.Hide();
-            EventConfirmation confirm = new EventConfirmation();
+            SportsBuddyEvents confirm = new SportsBuddyEvents();
             confirm.ShowDialog();
         }
 

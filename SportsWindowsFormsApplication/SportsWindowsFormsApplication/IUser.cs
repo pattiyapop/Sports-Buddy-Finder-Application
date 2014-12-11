@@ -45,7 +45,7 @@ namespace SportsWindowsFormsApplication
                 MessageBox.Show(ex.Message);
             }
             this.Hide();
-            Home home = new Home();
+            User home = new User();
             home.ShowDialog();
         }
 
